@@ -15,4 +15,4 @@ def put_file_in_bucket(file_path,
     your_bucket = s3.Bucket(s3_bucket)
 
     # upload the file
-    your_bucket.upload_file(file_path, bucket_name, object_name)
+    your_bucket.upload_file(file_path, bucket_name)
