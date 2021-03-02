@@ -4,7 +4,6 @@ import secrets
 
 def put_file_in_bucket(file_path,
                        bucket_name,
-                       object_name=None,
                        s3_bucket=secrets.s3_bucket,
                        s3_bucket_access_key=secrets.s3_bucket_access_key,
                        s3_bucket_secret_key=secrets.s3_bucket_secret_key):
